@@ -1,0 +1,10 @@
+https://www.youtube.com/watch?v=2kg0z1qNrkw
+
+1:00:20
+
+Creating the work component
+
+==========
+getForm.io
+==========
+- This website allows users to create a (just 1) free endpoint to allow users to create input forms to allow users to send emails from a website.
