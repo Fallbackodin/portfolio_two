@@ -1,10 +1,18 @@
-https://www.youtube.com/watch?v=2kg0z1qNrkw
-
-1:00:20
-
-Creating the work component
-
 ==========
 getForm.io
 ==========
 - This website allows users to create a (just 1) free endpoint to allow users to create input forms to allow users to send emails from a website.
+- You must use a form tag with specific props passed to it (action and method)
+
+============
+React-Scroll
+============
+- This library was used to implement scrolling
+- Must also download the @types version for it
+- Used the Link component to do the scroll. Can use id/className in order to target where to scroll
+
+====
+Grid
+====
+- Another powerful component like flexbox
+- There are different times when to use grid and flexbox. General rule of thumb is grid is used for multiple dimensional, flexbox for 1 dimensional, but there are A LOT of grey areas around these uses

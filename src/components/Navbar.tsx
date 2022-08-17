@@ -15,20 +15,20 @@ const Navbar: FC = () => {
                 <a href="/">
                     <h1 className="text-5xl font-bold text-pink-600 h-full flex items-center z-10">
                         {/* <span className="z-20 logo">J</span>
-                        <span className="mt-[40px] ml-[0px] z-10 logo">Y</span>
+                        <span className="mt-[40px] ml-[0px] z-10 logo">Y</span> */}
 
-                        <span className="z-20 logo">J</span>
+                        {/* <span className="z-20 logo">J</span>
                         <span className="mt-[40px] ml-[-9px] z-10 logo">Y</span> */}
 
-                        <span className="z-20 logo cursive">J</span>
+                        {/* <span className="z-20 logo cursive">J</span>
                         <span className="mt-[40px] ml-[0px] z-10 logo cursive">
                             Y
-                        </span>
+                        </span> */}
 
-                        {/* <span className="z-20 logo rays">J</span>
+                        <span className="z-20 logo rays">J</span>
                         <span className="mt-[40px] ml-[0px] z-10 logo rays">
                             Y
-                        </span> */}
+                        </span>
                     </h1>
                 </a>
             </div>
@@ -131,17 +131,26 @@ const Navbar: FC = () => {
             <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
                 <ul>
                     <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-3px] duration-300 bg-blue-600">
-                        <a className="flex justify-between items-center mx-2 w-full">
+                        <a
+                            href="https://www.linkedin.com/in/joseph-yim-ucf/"
+                            className="flex justify-between items-center mx-2 w-full"
+                        >
                             LinkedIn <FaLinkedin size={30} />
                         </a>
                     </li>
                     <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0px] duration-300 bg-blue-600">
-                        <a className="flex justify-between items-center mx-2 w-full">
+                        <a
+                            href="https://github.com/Fallbackodin"
+                            className="flex justify-between items-center mx-2 w-full"
+                        >
                             GitHub <FaGithub size={30} />
                         </a>
                     </li>
                     <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0px] duration-300 bg-blue-600">
-                        <a className="flex justify-between items-center mx-2 w-full">
+                        <a
+                            href="mailto:yimsjoseph@knights.ucf.edu"
+                            className="flex justify-between items-center mx-2 w-full"
+                        >
                             Email <HiOutlineMail size={30} />
                         </a>
                     </li>
