@@ -155,7 +155,12 @@ const Navbar: FC = () => {
                         </a>
                     </li>
                     <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0px] duration-300 bg-blue-600">
-                        <a className="flex justify-between items-center mx-2 w-full">
+                        <a
+                            href="Resume.pdf"
+                            target="blank"
+                            download
+                            className="flex justify-between items-center mx-2 w-full"
+                        >
                             Resume <BsFillFilePersonFill size={30} />
                         </a>
                     </li>
