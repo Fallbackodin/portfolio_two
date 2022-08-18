@@ -2,10 +2,7 @@ import React, { FC } from "react";
 
 const About: FC = () => {
     return (
-        <div
-            id="about"
-            className="w-full h-screen bg-[#0a192f] text-gray-300"
-        >
+        <div id="about" className="w-full h-screen bg-[#0a192f] text-gray-300">
             <div className="flex flex-col justify-center items-center w-full h-full">
                 <div className="max-w-[1000px] w-full px-4 grid grid-cols-2 gap-8">
                     <div className="sm:text-right pb-8 pl-4">
@@ -24,8 +21,21 @@ const About: FC = () => {
                     </div>
                     <div>
                         <p>
-                            I am passionate about excelling my career as a
-                            software engineer. I love doing frontend!
+                            I'm a student at the University of Central Florida
+                            majoring in Computer Science with a passion for
+                            front-end development, especially when it comes to
+                            using React.
+                            <br></br>
+                            <br></br>I have experience with multiple full-stack
+                            applications while also having an internship under
+                            my belt.
+                            <br></br>
+                            <br></br>
+                            Outside of school, I like to spend my time with
+                            friends and going to sporting events.
+                            <br></br>
+                            <br></br>
+                            Let's making something together!
                         </p>
                     </div>
                 </div>
