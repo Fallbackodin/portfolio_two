@@ -14,28 +14,25 @@ const About: FC = () => {
                 </div>
                 <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
                     <div className="sm:text-right text-4xl font-bold">
-                        <p>
-                            Hi, I'm Joseph, nice to meet you, Please take a look
-                            around.
-                        </p>
+                        <p>Hi, I'm Joseph! Please take a look around.</p>
                     </div>
                     <div>
                         <p>
                             I'm a student at the University of Central Florida
                             majoring in Computer Science. I have a passion for
-                            front-end development, especially when it comes to
-                            using React.
+                            front-end development and enjoy developing web
+                            applications using React.
                             <br></br>
-                            <br></br>I have experience with multiple full-stack
-                            applications while also having an internship under
-                            my belt.
+                            <br></br>I have real-world internship experience,
+                            and I have developed a variety of full-stack
+                            applications.
                             <br></br>
                             <br></br>
                             Outside of school, I like to spend my time with
-                            friends and going to sporting events.
+                            friends and go to sporting events.
                             <br></br>
                             <br></br>
-                            Let's making something together!
+                            Let's make something together!
                         </p>
                     </div>
                 </div>
