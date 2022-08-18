@@ -22,7 +22,7 @@ const About: FC = () => {
                     <div>
                         <p>
                             I'm a student at the University of Central Florida
-                            majoring in Computer Science with a passion for
+                            majoring in Computer Science. I have a passion for
                             front-end development, especially when it comes to
                             using React.
                             <br></br>
